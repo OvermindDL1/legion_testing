@@ -1,7 +1,4 @@
 macro_rules! cons {
-    () => (
-        ()
-    );
     ($head:tt) => (
         ($head, ())
     );
